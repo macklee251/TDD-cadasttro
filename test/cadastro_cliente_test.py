@@ -19,3 +19,4 @@ def test_de_cadastro_de_cliente():
     
     #Assert
     assert "Cadastrado com sucesso" == resposta
+    print(cliente)
