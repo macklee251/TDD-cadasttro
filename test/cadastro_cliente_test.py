@@ -3,7 +3,8 @@ import sys
 import random
 from faker import Faker
 sys.path.append('./../')
-from Cadastro.src.cadastro import Cliente, CadastroCliente
+from Cadastro.src.cadastro import CadastroCliente
+from Cadastro.src.cliente import Cliente
 
 faker = Faker()
 
